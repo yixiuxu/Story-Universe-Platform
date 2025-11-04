@@ -1,0 +1,82 @@
+{
+  "analysis": {
+    "summary": {
+      "total": 7,
+      "passed": 0,
+      "failed": 7,
+      "success_rate": "0%",
+      "avg_response_time": "60.47s"
+    },
+    "errors": {
+      "rate_limit": 0,
+      "timeout": 0,
+      "other": 7
+    },
+    "recommendations": [
+      {
+        "issue": "Slow response times",
+        "solution": "Enable streaming output or reduce max_tokens",
+        "priority": "MEDIUM"
+      }
+    ]
+  },
+  "detailed_results": [
+    {
+      "name": "Novel Generation",
+      "success": false,
+      "response_time": 60.49281144142151,
+      "error": "",
+      "data": null,
+      "timestamp": "2025-11-03T11:32:58.613812"
+    },
+    {
+      "name": "Character Generation",
+      "success": false,
+      "response_time": 60.4474458694458,
+      "error": "",
+      "data": null,
+      "timestamp": "2025-11-03T11:34:14.076899"
+    },
+    {
+      "name": "Script Conversion",
+      "success": false,
+      "response_time": 60.466148853302,
+      "error": "",
+      "data": null,
+      "timestamp": "2025-11-03T11:35:29.558091"
+    },
+    {
+      "name": "Storyboard Generation",
+      "success": false,
+      "response_time": 60.46161484718323,
+      "error": "",
+      "data": null,
+      "timestamp": "2025-11-03T11:36:45.020080"
+    },
+    {
+      "name": "Outline Generation",
+      "success": false,
+      "response_time": 60.461631059646606,
+      "error": "",
+      "data": null,
+      "timestamp": "2025-11-03T11:38:00.489535"
+    },
+    {
+      "name": "Chapter Continue",
+      "success": false,
+      "response_time": 60.47153568267822,
+      "error": "",
+      "data": null,
+      "timestamp": "2025-11-03T11:39:15.966069"
+    },
+    {
+      "name": "Style Adjust",
+      "success": false,
+      "response_time": 60.472001791000366,
+      "error": "",
+      "data": null,
+      "timestamp": "2025-11-03T11:40:31.451781"
+    }
+  ],
+  "total_time": 513.3308391571045
+}

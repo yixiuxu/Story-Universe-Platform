@@ -1,0 +1,53 @@
+{
+  "analysis": {
+    "total": 7,
+    "passed": 6,
+    "failed": 1,
+    "success_rate": "85%",
+    "avg_time": "27.26s"
+  },
+  "details": [
+    {
+      "name": "Novel",
+      "success": true,
+      "time": 16.694626569747925,
+      "error": null
+    },
+    {
+      "name": "Character",
+      "success": false,
+      "time": 60.58251738548279,
+      "error": ""
+    },
+    {
+      "name": "Script",
+      "success": true,
+      "time": 2.0691945552825928,
+      "error": null
+    },
+    {
+      "name": "Storyboard",
+      "success": true,
+      "time": 53.57070183753967,
+      "error": null
+    },
+    {
+      "name": "Outline",
+      "success": true,
+      "time": 45.0339789390564,
+      "error": null
+    },
+    {
+      "name": "Continue",
+      "success": true,
+      "time": 10.344301462173462,
+      "error": null
+    },
+    {
+      "name": "Rewrite",
+      "success": true,
+      "time": 2.4921674728393555,
+      "error": null
+    }
+  ]
+}

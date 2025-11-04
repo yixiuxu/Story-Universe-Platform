@@ -1,0 +1,197 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222 47% 11%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+    --primary: 262.1 83.3% 57.8%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 220 14.3% 96.1%;
+    --secondary-foreground: 220 14.3% 96.1%;
+    --muted: 220 14.3% 96.1%;
+    --muted-foreground: 220 9% 46%;
+    --accent: 220 14.3% 96.1%;
+    --accent-foreground: 220 14.3% 96.1%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 262.1 83.3% 57.8%;
+    --radius: 0.75rem;
+
+    /* Purple theme colors */
+    --primary-50: 243 232 255;
+    --primary-100: 233 213 255;
+    --primary-200: 214 180 255;
+    --primary-300: 196 181 253;
+    --primary-400: 179 157 219;
+    --primary-500: 168 162 255;
+    --primary-600: 147 129 252;
+    --primary-700: 126 114 245;
+    --primary-800: 107 114 234;
+    --primary-900: 88 83 188;
+    --primary-950: 69 66 176;
+
+    --indigo-50: 238 242 255;
+    --indigo-100: 224 231 255;
+    --indigo-200: 199 210 254;
+    --indigo-300: 165 180 252;
+    --indigo-400: 129 140 248;
+    --indigo-500: 99 102 241;
+    --indigo-600: 79 70 229;
+    --indigo-700: 67 56 202;
+    --indigo-800: 55 48 163;
+    --indigo-900: 49 46 129;
+    --indigo-950: 30 27 86;
+
+    --purple-50: 250 245 255;
+    --purple-100: 243 232 255;
+    --purple-200: 233 213 255;
+    --purple-300: 216 180 254;
+    --purple-400: 196 181 253;
+    --purple-500: 168 162 255;
+    --purple-600: 147 129 252;
+    --purple-700: 126 34 206;
+    --purple-800: 107 33 168;
+    --purple-900: 88 28 141;
+    --purple-950: 69 10 120;
+
+    --gradient-1: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    --gradient-2: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #a78bfa 100%);
+    --gradient-3: linear-gradient(135deg, #818cf8 0%, #c084fc 50%, #e879f9 100%);
+    --gradient-4: linear-gradient(135deg, #a78bfa 0%, #c084fc 50%, #e0e7ff 100%);
+    --gradient-5: linear-gradient(135deg, #ddd6fe 0%, #f7c3ff 100%);
+
+    --shadow-soft: 0 2px 8px 0 rgba(99, 102, 241, 0.1);
+    --shadow-medium: 0 4px 24px 0 rgba(99, 102, 241, 0.15);
+    --shadow-strong: 0 8px 32px 0 rgba(99, 102, 241, 0.2);
+
+    --shadow-primary: 0 4px 20px -2px rgba(99, 102, 241, 0.4);
+    --shadow-primary-hover: 0 6px 28px -4px rgba(99, 102, 241, 0.6);
+
+    --gradient-text: linear-gradient(to right, #6366f1, #8b5cf6, #a78bfa);
+    --gradient-bg: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #a78bfa 100%);
+    --gradient-border: linear-gradient(to right, #6366f1, #8b5cf6, #a78bfa);
+  }
+
+  .dark {
+    --background: 222 47% 11%;
+    --foreground: 210 40% 98%;
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 262.1 83.3% 57.8%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 262.1 83.3% 57.8%;
+
+    /* Dark theme purple colors */
+    --primary-50: 30 41 59;
+    --primary-100: 37 41 76;
+    --primary-200: 55 48 107;
+    --primary-300: 71 60 139;
+    --primary-400: 89 75 166;
+    --primary-500: 107 114 234;
+    --primary-600: 147 129 252;
+    --primary-700: 180 157 244;
+    --primary-800: 214 188 254;
+    --primary-900: 242 216 254;
+    --primary-950: 250 245 255;
+
+    --gradient-1: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    --gradient-2: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #a78bfa 100%);
+    --gradient-3: linear-gradient(135deg, #818cf8 0%, #c084fc 50%, #e879f9 100%);
+    --gradient-4: linear-gradient(135deg, #a78bfa 0%, #c084fc 50%, #e0e7ff 100%);
+    --gradient-5: linear-gradient(135deg, #ddd6fe 0%, #f7c3ff 100%);
+
+    --shadow-soft: 0 2px 8px 0 rgba(99, 102, 241, 0.1);
+    --shadow-medium: 0 4px 24px 0 rgba(99, 102, 241, 0.15);
+    --shadow-strong: 0 8px 32px 0 rgba(99, 102, 241, 0.2);
+
+    --shadow-primary: 0 4px 20px -2px rgba(99, 102, 241, 0.5);
+    --shadow-primary-hover: 0 6px 28px -4px rgba(99, 102, 241, 0.7);
+
+    --gradient-text: linear-gradient(to right, #6366f1, #8b5cf6, #a78bfa);
+    --gradient-bg: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #a78bfa 100%);
+    --gradient-border: linear-gradient(to right, #6366f1, #8b5cf6, #a78bfa);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1;
+  }
+}
+
+@layer components {
+  /* Button styles */
+  .btn-primary {
+    @apply bg-gradient-to-r from-primary to-primary-600 text-white transition-all duration-200;
+    box-shadow: 0 4px 20px -2px rgba(99, 102, 241, 0.4);
+  }
+  
+  .btn-primary:hover {
+    box-shadow: 0 6px 28px -4px rgba(99, 102, 241, 0.6);
+    transform: scale(1.05);
+  }
+
+  .btn-secondary {
+    @apply bg-gradient-to-r from-primary-100 to-primary-200 text-primary-700 border border-primary-200 hover:from-primary-200 hover:to-primary-300;
+  }
+
+  /* Card styles */
+  .card-hover {
+    @apply transition-all duration-300 hover:-translate-y-1;
+  }
+  
+  .card-hover:hover {
+    box-shadow: 0 4px 24px 0 rgba(99, 102, 241, 0.15);
+  }
+
+  /* Glass effect */
+  .glass {
+    @apply backdrop-blur-md bg-white/10 border border-white/20;
+  }
+
+  .glass-dark {
+    @apply backdrop-blur-md bg-black/10 border border-white/10;
+  }
+
+  /* Gradient text */
+  .gradient-text {
+    @apply bg-gradient-to-r from-primary to-primary-600 bg-clip-text text-transparent;
+  }
+
+  /* Gradient bg */
+  .gradient-bg {
+    @apply bg-gradient-to-br from-primary via-primary-500 to-purple-600;
+  }
+
+  /* Gradient border */
+  .gradient-border {
+    @apply border-2 border-transparent;
+    background-image: var(--gradient-border);
+    background-origin: border-box;
+    background-clip: padding-box;
+  }
+}
