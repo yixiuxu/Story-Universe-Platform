@@ -360,15 +360,10 @@ APP_NAME=Story Universe
 DEBUG=True
 
 # 智谱AI配置
-<<<<<<< HEAD
-ZHIPU_API_KEY=1a8daac8efc9495485f8694c5edfa3a4.9kb4gTmEyrWXztY4
-ZHIPU_MAX_API_KEY=e654b552ae8b47079555e9e290c98ba7.U3MuFwGafFCriCGN
-ZHIPU_BASE_URL=https://open.bigmodel.cn/api/paas/v4/
-=======
+
 ZHIPU_API_KEY=your_zhipu_api_key_here
 ZHIPU_MAX_API_KEY=your_zhipu_api_key_here
 ZHIPU_BASE_URL=your_zhipu_max_api_key_here
->>>>>>> 743abfcb1f6ad0001fb61075ffe141e4ebdc8661
 
 # 资源包配置
 GLM_4_6_TOKENS=2000000
@@ -459,9 +454,6 @@ story-universe-platform/
 
 ### 技术支持
 
-- 📧 邮箱: support@story-universe.com
-- 💬 QQ群: 123456789
-- 📱 微信群: 扫描二维码加入
 - 📧 邮箱: 19550570767@163.com
 
 ## 🎯 路线图
@@ -489,5 +481,4 @@ story-universe-platform/
 
 ---
 
-**Story Universe Platform** - 让AI助力创意创作 ✨
 **Story Universe Platform** - 让AI助力创意创作 ✨
